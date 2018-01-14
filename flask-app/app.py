@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request, render_template
 import sys
 import requests
 
-es = Elasticsearch(host='esss')
+es = Elasticsearch(host='es')
 
 app = Flask(__name__)
 
